@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t bernardo9999/nodeapp:latest .'
+				sh 'docker build -t luizvnasc/nodeapp:latest .'
 			}
 		}
 
