@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push bernardo9999/nodeapp:latest'
+				sh 'docker push luizvnasc/nodeapp:latest'
 			}
 		}
 	}
